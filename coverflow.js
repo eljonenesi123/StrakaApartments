@@ -153,9 +153,21 @@
       cancelAnimationFrame(rafId);
       rafId = null;
     }
+    // Pointer capture retargets the click that would follow this gesture to
+    // `frame`, so the tapped card is recorded here — before capture — and
+    // resolved on pointerup instead of relying on a per-card click listener.
+    const tappedCard = e.target.closest('.cf-card');
     frame.setPointerCapture(e.pointerId);
     target = pos;
-    drag = { id: e.pointerId, x: e.clientX, pos, v: 0, t: performance.now(), moved: false };
+    drag = {
+      id: e.pointerId,
+      x: e.clientX,
+      pos,
+      v: 0,
+      t: performance.now(),
+      moved: false,
+      tappedIndex: tappedCard ? cards.indexOf(tappedCard) : -1,
+    };
   }
 
   function onPointerMove(e) {
@@ -178,18 +190,18 @@
     paint();
   }
 
-  let suppressNextClick = false;
-
   function endDrag(e) {
     if (!drag || drag.id !== e.pointerId) return;
     const wasDrag = drag.moved;
     const velocity = drag.v;
+    const tappedIndex = drag.tappedIndex;
     drag = null;
     if (wasDrag) {
-      suppressNextClick = true;
       // Let a flick carry, but never more than two cards.
       const carried = Math.max(-2, Math.min(2, velocity * 0.18));
       settle(clamp(Math.round(pos + carried)));
+    } else if (tappedIndex !== -1) {
+      goTo(tappedIndex);
     }
   }
 
@@ -197,17 +209,6 @@
   frame.addEventListener('pointermove', onPointerMove);
   frame.addEventListener('pointerup', endDrag);
   frame.addEventListener('pointercancel', endDrag);
-
-  // ============ CLICK-TO-SELECT ============
-  cards.forEach((card, index) => {
-    card.addEventListener('click', () => {
-      if (suppressNextClick) {
-        suppressNextClick = false; // the click that follows a real drag
-        return;
-      }
-      goTo(index);
-    });
-  });
 
   // ============ KEYBOARD ============
   frame.addEventListener('keydown', (e) => {
