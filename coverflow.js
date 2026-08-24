@@ -148,16 +148,16 @@
   }
 
   // ============ POINTER DRAG ============
+  // pointermove/pointerup are bound to `window` for the life of a drag
+  // instead of using setPointerCapture — capture retargets the follow-up
+  // click to the capturing element, which swallowed tap-to-select entirely.
   function onPointerDown(e) {
+    if (e.button !== undefined && e.button !== 0) return;
     if (rafId !== null) {
       cancelAnimationFrame(rafId);
       rafId = null;
     }
-    // Pointer capture retargets the click that would follow this gesture to
-    // `frame`, so the tapped card is recorded here — before capture — and
-    // resolved on pointerup instead of relying on a per-card click listener.
     const tappedCard = e.target.closest('.cf-card');
-    frame.setPointerCapture(e.pointerId);
     target = pos;
     drag = {
       id: e.pointerId,
@@ -168,6 +168,9 @@
       moved: false,
       tappedIndex: tappedCard ? cards.indexOf(tappedCard) : -1,
     };
+    window.addEventListener('pointermove', onPointerMove);
+    window.addEventListener('pointerup', endDrag);
+    window.addEventListener('pointercancel', endDrag);
   }
 
   function onPointerMove(e) {
@@ -192,6 +195,9 @@
 
   function endDrag(e) {
     if (!drag || drag.id !== e.pointerId) return;
+    window.removeEventListener('pointermove', onPointerMove);
+    window.removeEventListener('pointerup', endDrag);
+    window.removeEventListener('pointercancel', endDrag);
     const wasDrag = drag.moved;
     const velocity = drag.v;
     const tappedIndex = drag.tappedIndex;
@@ -206,9 +212,6 @@
   }
 
   frame.addEventListener('pointerdown', onPointerDown);
-  frame.addEventListener('pointermove', onPointerMove);
-  frame.addEventListener('pointerup', endDrag);
-  frame.addEventListener('pointercancel', endDrag);
 
   // ============ KEYBOARD ============
   frame.addEventListener('keydown', (e) => {
