@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "title": "Straka Apartments | Ruhige Behaglichkeit",
+    "description": "Straka Apartments: eine warme, moderne Wohnung, bereit für Ihren nächsten Aufenthalt."
+  },
+  "nav": {
+    "story": "Geschichte",
+    "gallery": "Galerie",
+    "amenities": "Ausstattung",
+    "location": "Lage",
+    "reviews": "Bewertungen",
+    "book": "Verfügbarkeit prüfen"
+  },
+  "hero": {
+    "eyebrow": "Straka Apartments",
+    "title": "Kommen Sie an einen Ort, der sich wie Ihrer anfühlt",
+    "tagline": "Eine warme, lichtdurchflutete Wohnung, der Ort, an dem Sie aufhören, aufs Handy zu schauen.",
+    "meta": "Tirana · Ruhiger Luxus · Kurz- & Langzeitaufenthalt",
+    "cta": "Verfügbarkeit prüfen",
+    "statLabel": "Gästebewertung aus früheren Aufenthalten",
+    "contactLabel": "Fragen?",
+    "contactLink": "Schreiben Sie uns auf WhatsApp",
+    "scroll": "Scrollen"
+  },
+  "intro": {
+    "kicker": "Die Wohnung",
+    "title": "Kleine Details, richtig gemacht",
+    "p1": "Straka Apartments will nicht mit Größe beeindrucken. Es dreht sich um das, was nach einem langen Tag wirklich zählt: ein ordentlich gemachtes Bett, Vorhänge, die das Licht aussperren, ein Sofa, tief genug zum Verschwinden.",
+    "p2": "Warmes Eichenholz, weiches Leinen und ein Wohnzimmer, das abends mit dem glühenden Kamin genauso gut aussieht wie im Morgenlicht. Ein Ort zum Leben, nicht nur zum Fotografieren."
+  },
+  "gallery": {
+    "kicker": "Rundgang",
+    "title": "Ein genauerer Blick",
+    "items": {
+      "bedroom": "Das Schlafzimmer, ruhig, warm, bereit",
+      "living": "Wohnzimmer im Morgenlicht",
+      "dining": "Essecke & Lounge",
+      "tvday": "Gemütliche Abende, Tagesansicht",
+      "tveveningclose": "Der Kaminschein, aus der Nähe",
+      "tveveningwide": "Wohnzimmer nach Einbruch der Dunkelheit"
+    }
+  },
+  "amenities": {
+    "kicker": "Ausstattung",
+    "title": "Alles, was Sie brauchen, nicht mehr",
+    "items": {
+      "kitchen": { "title": "Voll ausgestattete Küche", "desc": "Kühlschrank, Herd und Kochgeschirr, bereit für eine richtige Mahlzeit." },
+      "wifi": { "title": "Kostenloses WLAN", "desc": "Schnelle, zuverlässige Verbindung in der ganzen Wohnung." },
+      "parking": { "title": "Kostenloser Parkplatz", "desc": "Eigener Parkplatz, kein Kreisen um den Block." },
+      "laundry": { "title": "Waschmaschine", "desc": "Waschmöglichkeit in der Wohnung für längere Aufenthalte." },
+      "balcony": { "title": "Balkon", "desc": "Privater Außenbereich zum Durchatmen." },
+      "elevator": { "title": "Aufzug", "desc": "Keine Treppen, kein Ärger mit Gepäck." },
+      "ac": { "title": "Klimaanlage", "desc": "Klimakontrolle, jeder Raum, jede Jahreszeit." },
+      "tv": { "title": "Smart-TV", "desc": "Streamen Sie bequem vom Sofa aus." },
+      "view": { "title": "Stadtblick", "desc": "Ein Ausblick, für den es sich lohnt, die Vorhänge zu öffnen." },
+      "kettle": { "title": "Wasserkocher", "desc": "Tee oder Kaffee in wenigen Minuten fertig." },
+      "hairdryer": { "title": "Haartrockner", "desc": "Im Bad, einsatzbereit, wenn Sie ihn brauchen." },
+      "smokefree": { "title": "Rauchfrei", "desc": "Die gesamte Wohnung ist rauchfrei." }
+    }
+  },
+  "location": {
+    "kicker": "Lage",
+    "title": "Genau dort, wo Sie sein möchten",
+    "text": "Straka Apartments liegt in der Rruga Shefqet Musaraj, in einem ruhigen Wohnviertel, nah genug am Zentrum zum Laufen, weit genug weg, um wirklich zu schlafen."
+  },
+  "reviews": {
+    "kicker": "Gäste sagen",
+    "title": "Was in Erinnerung bleibt",
+    "allLink": "Alle Bewertungen auf Booking.com ansehen",
+    "items": [
+      { "quote": "Es war ein sehr schöner und gemütlicher Ort, uns hat alles gefallen. 10/10.", "author": "Begaj, Albanien" },
+      { "quote": "Wunderbare Wohnung, gute Lage, Aufzug und Sicherheitskamera, ruhiges Gebäude und nah an allem, was man braucht.", "author": "Gast aus Italien" },
+      { "quote": "Außergewöhnlich.", "author": "Ina, Albanien" }
+    ]
+  },
+  "footer": {
+    "cta_title": "Bereit, wenn Sie es sind",
+    "cta_button": "Verfügbarkeit auf Booking.com prüfen",
+    "blurb": "Eine warme, ruhige Wohnung in Tirana, bereit für Ihren nächsten Aufenthalt.",
+    "explore_title": "Entdecken",
+    "contact_title": "Kontakt",
+    "whatsapp": "Schreiben Sie uns auf WhatsApp",
+    "lang_title": "Sprache",
+    "rights": "Straka Apartments. Alle Rechte vorbehalten.",
+    "privacy": "Datenschutzerklärung",
+    "terms": "Nutzungsbedingungen"
+  },
+  "floatingCta": "Jetzt buchen"
+}

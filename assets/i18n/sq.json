@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "title": "Straka Apartments | Rehati e Qetë",
+    "description": "Straka Apartments: një apartament i ngrohtë dhe modern, gati për qëndrimin tuaj të radhës."
+  },
+  "nav": {
+    "story": "Historia",
+    "gallery": "Galeria",
+    "amenities": "Komoditetet",
+    "location": "Vendndodhja",
+    "reviews": "Vlerësime",
+    "book": "Kontrollo disponueshmërinë"
+  },
+  "hero": {
+    "eyebrow": "Straka Apartments",
+    "title": "Ejani në një vend që ndihet si i juaji",
+    "tagline": "Një apartament i ngrohtë, plot dritë, vendi ku pushon së kontrolluari telefonin.",
+    "meta": "Tiranë · Luks i Qetë · Qëndrim i Shkurtër ose i Gjatë",
+    "cta": "Kontrollo disponueshmërinë",
+    "statLabel": "Vlerësim nga qëndrimet e mëparshme",
+    "contactLabel": "Pyetje?",
+    "contactLink": "Na shkruani në WhatsApp",
+    "scroll": "Zbrit poshtë"
+  },
+  "intro": {
+    "kicker": "Apartamenti",
+    "title": "Detaje të vogla, të bëra si duhet",
+    "p1": "Straka Apartments nuk përpiqet t'ju bindë me madhësinë. Është ndërtuar rreth gjërave që kanë vërtet rëndësi pas një dite të gjatë: një shtrat i bërë si duhet, perde që mbajnë jashtë dritën, një divan mjaftueshëm i thellë për t'u zhdukur brenda.",
+    "p2": "Dru lisi i ngrohtë, liri i butë dhe një dhomë ndenjeje që duket po aq mirë me oxhakun e ndezur natën sa edhe me dritën e mëngjesit. Ky është një vend i menduar për t'u jetuar, jo vetëm për t'u fotografuar."
+  },
+  "gallery": {
+    "kicker": "Rreth Apartamentit",
+    "title": "Një vështrim më i afërt",
+    "items": {
+      "bedroom": "Dhoma e gjumit, e qetë, e ngrohtë, gati",
+      "living": "Dhoma e ndenjes, dritë mëngjesi",
+      "dining": "Këndi i ngrënies dhe divani",
+      "tvday": "Mbrëmje në shtëpi, versioni ditor",
+      "tveveningclose": "Shkëlqimi i oxhakut, nga afër",
+      "tveveningwide": "Dhoma e ndenjes pas errësirës"
+    }
+  },
+  "amenities": {
+    "kicker": "Çfarë Përfshihet",
+    "title": "Gjithçka që ju duhet, asgjë e tepërt",
+    "items": {
+      "kitchen": { "title": "Kuzhinë e Plotë", "desc": "Frigorifer, sobë dhe enë gatimi, gati për një vakt të vërtetë." },
+      "wifi": { "title": "WiFi Falas", "desc": "Lidhje e shpejtë dhe e qëndrueshme në gjithë apartamentin." },
+      "parking": { "title": "Parkim Falas", "desc": "Vend parkimi i dedikuar, pa sjellje rrotull." },
+      "laundry": { "title": "Makinë Larëse", "desc": "Larje rrobash brenda apartamentit për qëndrime më të gjata." },
+      "balcony": { "title": "Ballkon", "desc": "Hapësirë private e jashtme për pak ajër." },
+      "elevator": { "title": "Ashensor", "desc": "Pa shkallë, pa telashe me bagazhet." },
+      "ac": { "title": "Kondicioner", "desc": "Kontroll klime, çdo dhomë, çdo stinë." },
+      "tv": { "title": "Smart TV", "desc": "Shikoni programet tuaja rehat në divan." },
+      "view": { "title": "Pamje nga Qyteti", "desc": "Një pamje që ia vlen të hapësh perdet." },
+      "kettle": { "title": "Vlues Elektrik", "desc": "Çaj apo kafe gati brenda pak minutash." },
+      "hairdryer": { "title": "Tharëse Flokësh", "desc": "Në banjë, gati kur t'ju duhet." },
+      "smokefree": { "title": "Pa Duhan", "desc": "I gjithë apartamenti është zonë pa duhan." }
+    }
+  },
+  "location": {
+    "kicker": "Vendndodhja",
+    "title": "Pikërisht aty ku dëshironi të jeni",
+    "text": "Straka Apartments ndodhet në Rrugën Shefqet Musaraj, në një zonë të qetë banimi, mjaftueshëm afër qendrës për të ecur, mjaftueshëm larg për të fjetur me të vërtetë."
+  },
+  "reviews": {
+    "kicker": "Thonë Mysafirët",
+    "title": "Çfarë mbajnë mend njerëzit",
+    "allLink": "Shiko të gjitha vlerësimet në Booking.com",
+    "items": [
+      { "quote": "Ishte një vend shumë i bukur dhe i rehatshëm, na pëlqeu gjithçka. 10/10.", "author": "Begaj, Shqipëri" },
+      { "quote": "Apartament i mrekullueshëm, vendndodhje e mirë, ashensor dhe kamerë sigurie, ndërtesë e qetë dhe afër gjithçkaje që të duhet.", "author": "Mysafir nga Italia" },
+      { "quote": "I jashtëzakonshëm.", "author": "Ina, Shqipëri" }
+    ]
+  },
+  "footer": {
+    "cta_title": "Gati kur të jeni edhe ju",
+    "cta_button": "Kontrollo disponueshmërinë në Booking.com",
+    "blurb": "Një apartament i ngrohtë dhe i qetë në Tiranë, gati për qëndrimin tuaj të radhës.",
+    "explore_title": "Eksploro",
+    "contact_title": "Kontakt",
+    "whatsapp": "Na shkruani në WhatsApp",
+    "lang_title": "Gjuha",
+    "rights": "Straka Apartments. Të gjitha të drejtat e rezervuara.",
+    "privacy": "Politika e Privatësisë",
+    "terms": "Kushtet e Përdorimit"
+  },
+  "floatingCta": "Rezervo Tani"
+}

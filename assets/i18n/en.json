@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "title": "Straka Apartments | A Quiet Kind of Comfort",
+    "description": "Straka Apartments: a warm, modern apartment with thoughtful details, ready for your next stay."
+  },
+  "nav": {
+    "story": "Story",
+    "gallery": "Gallery",
+    "amenities": "Amenities",
+    "location": "Location",
+    "reviews": "Reviews",
+    "book": "Check availability"
+  },
+  "hero": {
+    "eyebrow": "Straka Apartments",
+    "title": "Come home to somewhere that feels like yours",
+    "tagline": "A warm, light-filled apartment, the kind of place you stop checking your phone in.",
+    "meta": "Tirana · Quiet Luxury · Short & Long Stay",
+    "cta": "Check availability",
+    "statLabel": "Guest rating from past stays",
+    "contactLabel": "Questions?",
+    "contactLink": "Message us on WhatsApp",
+    "scroll": "Scroll"
+  },
+  "intro": {
+    "kicker": "The Apartment",
+    "title": "Small details, done properly",
+    "p1": "Straka Apartments isn't trying to impress you with size. It's built around the things that actually matter after a long day: a bed made up properly, curtains that shut out the light, a sofa deep enough to disappear into.",
+    "p2": "Warm oak, soft linen, and a living room that looks just as good with the fireplace glowing at night as it does in the morning sun. This is a place designed to be lived in, not just photographed."
+  },
+  "gallery": {
+    "kicker": "Around the Apartment",
+    "title": "A closer look",
+    "items": {
+      "bedroom": "The bedroom, quiet, warm, and ready",
+      "living": "Living room, morning light",
+      "dining": "Dining corner & lounge",
+      "tvday": "Evenings in, daylight version",
+      "tveveningclose": "The fireplace glow, up close",
+      "tveveningwide": "Living room after dark"
+    }
+  },
+  "amenities": {
+    "kicker": "What's Included",
+    "title": "Everything you need, nothing you don't",
+    "items": {
+      "kitchen": { "title": "Full Kitchen", "desc": "Fridge, stove, and cookware, ready to cook a real meal." },
+      "wifi": { "title": "Free WiFi", "desc": "Fast, reliable connection throughout the apartment." },
+      "parking": { "title": "Free Parking", "desc": "Dedicated parking, no circling the block." },
+      "laundry": { "title": "Washing Machine", "desc": "In-unit laundry for longer stays." },
+      "balcony": { "title": "Balcony", "desc": "Private outdoor space to catch some air." },
+      "elevator": { "title": "Elevator Access", "desc": "No stairs, no hassle with luggage." },
+      "ac": { "title": "Air Conditioning", "desc": "Climate control, every room, every season." },
+      "tv": { "title": "Smart TV", "desc": "Stream your own shows from the comfort of the sofa." },
+      "view": { "title": "City View", "desc": "A view worth opening the curtains for." },
+      "kettle": { "title": "Electric Kettle", "desc": "Tea or coffee ready in a couple of minutes." },
+      "hairdryer": { "title": "Hairdryer", "desc": "In the bathroom, ready when you need it." },
+      "smokefree": { "title": "Smoke-Free", "desc": "The whole apartment is smoke-free." }
+    }
+  },
+  "location": {
+    "kicker": "Location",
+    "title": "Right where you want to be",
+    "text": "Straka Apartments sits on Rruga Shefqet Musaraj, in a quiet residential pocket close enough to the center to walk, far enough to actually sleep."
+  },
+  "reviews": {
+    "kicker": "Guests Say",
+    "title": "What people remember",
+    "allLink": "See all reviews on Booking.com",
+    "items": [
+      { "quote": "It was a very nice and cozy place, loved everything. 10/10.", "author": "Begaj, Albania" },
+      { "quote": "Wonderful apartment, great location, elevator and security camera, quiet building and close to everything you need.", "author": "Guest from Italy" },
+      { "quote": "Exceptional.", "author": "Ina, Albania" }
+    ]
+  },
+  "footer": {
+    "cta_title": "Ready when you are",
+    "cta_button": "Check availability on Booking.com",
+    "blurb": "A warm, quietly comfortable apartment in Tirana, ready for your next stay.",
+    "explore_title": "Explore",
+    "contact_title": "Contact",
+    "whatsapp": "Message on WhatsApp",
+    "lang_title": "Language",
+    "rights": "Straka Apartments. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use"
+  },
+  "floatingCta": "Book Now"
+}
